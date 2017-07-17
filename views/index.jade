@@ -1,0 +1,11 @@
+extends layout
+
+block content
+	form(method="post", action="/form", enctype="application/json")
+		input(type="text", placeholder='First Name', name='Name') 
+		br
+		Age: br
+		input(type="text", placeholder="Age", name='Age')
+		br
+		br
+		input(type="submit", value="Submit")
